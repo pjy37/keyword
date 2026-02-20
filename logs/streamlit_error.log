@@ -1,0 +1,169 @@
+/Users/gomak/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/gomak/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2026-02-12 16:14:31.269 The keyword arguments have been deprecated and will be removed in a future release. Use `config` instead to specify Plotly configuration options.
+2026-02-12 16:14:55.459 The keyword arguments have been deprecated and will be removed in a future release. Use `config` instead to specify Plotly configuration options.
+2026-02-12 16:14:55.840 The keyword arguments have been deprecated and will be removed in a future release. Use `config` instead to specify Plotly configuration options.
+2026-02-12 16:14:57.021 The keyword arguments have been deprecated and will be removed in a future release. Use `config` instead to specify Plotly configuration options.
+2026-02-12 16:14:57.933 The keyword arguments have been deprecated and will be removed in a future release. Use `config` instead to specify Plotly configuration options.
+2026-02-12 16:16:01.179 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-12 16:18:25.227 The keyword arguments have been deprecated and will be removed in a future release. Use `config` instead to specify Plotly configuration options.
+2026-02-12 16:19:23.944 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-12 16:20:39.886 The keyword arguments have been deprecated and will be removed in a future release. Use `config` instead to specify Plotly configuration options.
+2026-02-12 16:20:46.334 The keyword arguments have been deprecated and will be removed in a future release. Use `config` instead to specify Plotly configuration options.
+2026-02-12 16:20:47.928 The keyword arguments have been deprecated and will be removed in a future release. Use `config` instead to specify Plotly configuration options.
+2026-02-12 16:20:50.141 The keyword arguments have been deprecated and will be removed in a future release. Use `config` instead to specify Plotly configuration options.
+2026-02-12 16:20:52.706 The keyword arguments have been deprecated and will be removed in a future release. Use `config` instead to specify Plotly configuration options.
+2026-02-12 16:21:57.327 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+/Users/gomak/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2026-02-12 16:25:04.445 The keyword arguments have been deprecated and will be removed in a future release. Use `config` instead to specify Plotly configuration options.
+2026-02-12 16:25:14.453 The keyword arguments have been deprecated and will be removed in a future release. Use `config` instead to specify Plotly configuration options.
+2026-02-12 16:25:23.062 The keyword arguments have been deprecated and will be removed in a future release. Use `config` instead to specify Plotly configuration options.
+2026-02-12 16:27:36.999 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+/Users/gomak/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2026-02-12 16:29:53.760 The keyword arguments have been deprecated and will be removed in a future release. Use `config` instead to specify Plotly configuration options.
+2026-02-12 16:29:56.453 The keyword arguments have been deprecated and will be removed in a future release. Use `config` instead to specify Plotly configuration options.
+2026-02-12 16:29:56.973 The keyword arguments have been deprecated and will be removed in a future release. Use `config` instead to specify Plotly configuration options.
+2026-02-12 16:29:57.441 The keyword arguments have been deprecated and will be removed in a future release. Use `config` instead to specify Plotly configuration options.
+2026-02-12 16:29:58.041 The keyword arguments have been deprecated and will be removed in a future release. Use `config` instead to specify Plotly configuration options.
+2026-02-12 16:29:58.671 The keyword arguments have been deprecated and will be removed in a future release. Use `config` instead to specify Plotly configuration options.
+2026-02-12 16:30:52.706 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+/Users/gomak/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2026-02-12 16:50:57.256 The keyword arguments have been deprecated and will be removed in a future release. Use `config` instead to specify Plotly configuration options.
+2026-02-12 16:51:03.546 The keyword arguments have been deprecated and will be removed in a future release. Use `config` instead to specify Plotly configuration options.
+2026-02-12 16:51:04.489 The keyword arguments have been deprecated and will be removed in a future release. Use `config` instead to specify Plotly configuration options.
+2026-02-12 16:51:05.309 The keyword arguments have been deprecated and will be removed in a future release. Use `config` instead to specify Plotly configuration options.
+/Users/gomak/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2026-02-12 16:55:45.715 The keyword arguments have been deprecated and will be removed in a future release. Use `config` instead to specify Plotly configuration options.
+2026-02-12 16:55:47.820 The keyword arguments have been deprecated and will be removed in a future release. Use `config` instead to specify Plotly configuration options.
+2026-02-12 16:57:09.290 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-12 16:58:12.450 The keyword arguments have been deprecated and will be removed in a future release. Use `config` instead to specify Plotly configuration options.
+2026-02-12 16:58:15.090 The keyword arguments have been deprecated and will be removed in a future release. Use `config` instead to specify Plotly configuration options.
+2026-02-12 16:58:15.637 The keyword arguments have been deprecated and will be removed in a future release. Use `config` instead to specify Plotly configuration options.
+2026-02-12 16:59:36.100 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-12 17:00:08.748 The keyword arguments have been deprecated and will be removed in a future release. Use `config` instead to specify Plotly configuration options.
+2026-02-12 17:00:10.263 The keyword arguments have been deprecated and will be removed in a future release. Use `config` instead to specify Plotly configuration options.
+2026-02-12 17:00:41.472 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+/Users/gomak/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2026-02-12 17:15:00.236 The keyword arguments have been deprecated and will be removed in a future release. Use `config` instead to specify Plotly configuration options.
+2026-02-12 17:15:01.932 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-12 17:15:01.979 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-12 17:15:02.022 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+/Users/gomak/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2026-02-12 17:24:01.493 The keyword arguments have been deprecated and will be removed in a future release. Use `config` instead to specify Plotly configuration options.
+2026-02-12 17:24:12.368 The keyword arguments have been deprecated and will be removed in a future release. Use `config` instead to specify Plotly configuration options.
+2026-02-12 17:24:12.849 The keyword arguments have been deprecated and will be removed in a future release. Use `config` instead to specify Plotly configuration options.
+2026-02-12 17:25:15.232 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-12 17:26:20.860 The keyword arguments have been deprecated and will be removed in a future release. Use `config` instead to specify Plotly configuration options.
+2026-02-12 17:27:07.750 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-12 17:27:47.886 The keyword arguments have been deprecated and will be removed in a future release. Use `config` instead to specify Plotly configuration options.
+2026-02-12 17:27:51.069 The keyword arguments have been deprecated and will be removed in a future release. Use `config` instead to specify Plotly configuration options.
+2026-02-12 17:27:51.543 The keyword arguments have been deprecated and will be removed in a future release. Use `config` instead to specify Plotly configuration options.
+2026-02-12 17:28:29.246 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+/Users/gomak/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2026-02-12 17:30:24.840 The keyword arguments have been deprecated and will be removed in a future release. Use `config` instead to specify Plotly configuration options.
+2026-02-12 17:30:27.496 The keyword arguments have been deprecated and will be removed in a future release. Use `config` instead to specify Plotly configuration options.
+2026-02-12 17:30:27.970 The keyword arguments have been deprecated and will be removed in a future release. Use `config` instead to specify Plotly configuration options.
+2026-02-12 17:31:37.114 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+/Users/gomak/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2026-02-12 17:33:18.587 The keyword arguments have been deprecated and will be removed in a future release. Use `config` instead to specify Plotly configuration options.
+2026-02-12 17:33:21.570 The keyword arguments have been deprecated and will be removed in a future release. Use `config` instead to specify Plotly configuration options.
+2026-02-12 17:34:29.018 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+/Users/gomak/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2026-02-12 17:36:06.497 The keyword arguments have been deprecated and will be removed in a future release. Use `config` instead to specify Plotly configuration options.
+2026-02-12 17:36:10.476 The keyword arguments have been deprecated and will be removed in a future release. Use `config` instead to specify Plotly configuration options.
+2026-02-12 17:37:05.089 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-02-12 17:37:13.223 The keyword arguments have been deprecated and will be removed in a future release. Use `config` instead to specify Plotly configuration options.
+2026-02-12 17:37:57.661 The keyword arguments have been deprecated and will be removed in a future release. Use `config` instead to specify Plotly configuration options.
+2026-02-12 17:39:33.639 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+/Users/gomak/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/gomak/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/gomak/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2026-02-20 15:37:24.926 The keyword arguments have been deprecated and will be removed in a future release. Use `config` instead to specify Plotly configuration options.
+/Users/gomak/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
