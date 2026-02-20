@@ -1,6 +1,37 @@
+import os
 from typing import Optional, Tuple
 
 import streamlit as st
+
+# .env 파일 자동 로드 (python-dotenv 설치 필요: pip install python-dotenv)
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass
+
+
+def _get_credentials() -> dict:
+    """환경변수 또는 기본값에서 API 인증 정보를 가져온다.
+
+    우선순위: 환경변수(.env) > 하드코딩 기본값
+    """
+    return {
+        "searchad_api_key": os.getenv(
+            "SEARCHAD_API_KEY",
+            "01000000007638696007d48dbcde1c7ccc0ebdd11cef980bb94e42063caa226416cc22c0df",
+        ),
+        "searchad_secret_key": os.getenv(
+            "SEARCHAD_SECRET_KEY",
+            "AQAAAAB2OGlgB9SNvN4cfMwOvdEcgPDln0EJRfKT/DTm76IRpg==",
+        ),
+        "searchad_customer_id": os.getenv(
+            "SEARCHAD_CUSTOMER_ID",
+            "3854788",
+        ),
+        "datalab_client_id": os.getenv("DATALAB_CLIENT_ID", ""),
+        "datalab_client_secret": os.getenv("DATALAB_CLIENT_SECRET", ""),
+    }
 
 
 def render_sidebar() -> Tuple[Optional[str], dict]:
@@ -9,32 +40,10 @@ def render_sidebar() -> Tuple[Optional[str], dict]:
     Returns:
         (keyword, credentials) - 분석 실행 시 keyword가 문자열, 아니면 None
     """
+    credentials = _get_credentials()
+
     with st.sidebar:
         st.header("네이버 키워드 분석 도구")
-
-        # API 키 설정
-        with st.expander("API 키 설정", expanded=False):
-            st.subheader("검색광고 API")
-            st.text_input(
-                "API License", type="password", key="searchad_api_key"
-            )
-            st.text_input(
-                "Secret Key", type="password", key="searchad_secret_key"
-            )
-            st.text_input(
-                "Customer ID", key="searchad_customer_id"
-            )
-
-        # API 키 발급 안내
-        with st.expander("API 키 발급 안내", expanded=False):
-            st.markdown("""
-**검색광고 API 키 발급**
-1. [네이버 검색광고](https://searchad.naver.com) 접속 및 로그인
-2. 상단 메뉴 **도구 > API 사용 관리**
-3. API License, Secret Key, Customer ID 확인
-            """)
-
-        st.divider()
 
         # 키워드 입력
         st.text_input(
@@ -53,27 +62,27 @@ def render_sidebar() -> Tuple[Optional[str], dict]:
         if analyze_clicked and st.session_state.get("keyword_input", "").strip():
             st.session_state["run_keyword"] = st.session_state["keyword_input"].strip()
 
-        # API 키 보유 상태 표시
         st.divider()
         st.caption("API 연결 상태")
 
-        has_searchad = all([
-            st.session_state.get("searchad_api_key"),
-            st.session_state.get("searchad_secret_key"),
-            st.session_state.get("searchad_customer_id"),
-        ])
-
-        if has_searchad:
-            st.success("검색광고 API: 설정됨", icon="✅")
+        # 검색광고 API 상태
+        if credentials["searchad_api_key"] and credentials["searchad_customer_id"]:
+            st.success("검색광고 API: 연결됨", icon="✅")
         else:
-            st.info("검색광고 API: 미설정", icon="ℹ️")
+            st.error("검색광고 API: 미설정", icon="❌")
 
-    # session_state에서 직접 읽기
-    credentials = {
-        "searchad_api_key": st.session_state.get("searchad_api_key", ""),
-        "searchad_secret_key": st.session_state.get("searchad_secret_key", ""),
-        "searchad_customer_id": st.session_state.get("searchad_customer_id", ""),
-    }
+        # 데이터랩 API 상태
+        if credentials["datalab_client_id"]:
+            st.success("데이터랩 API: 연결됨", icon="✅")
+        else:
+            st.info("데이터랩 API: 미설정 (선택사항)", icon="ℹ️")
+
+        # API 키 확인용 (접힌 상태)
+        with st.expander("API 키 확인"):
+            st.text(f"Customer ID: {credentials['searchad_customer_id']}")
+            st.text(f"API Key: ...{credentials['searchad_api_key'][-8:]}")
+            st.text(f"Secret: ...{credentials['searchad_secret_key'][-8:]}")
+            st.caption("키 변경은 .env 파일을 수정하세요.")
 
     keyword = st.session_state.get("run_keyword")
     if keyword:
